@@ -6,7 +6,14 @@ authors = ["tgadf <tgadfort@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "3.10.14"
+stable-baselines3 = {extras = ["extra"], version = "^2.3.1"}
+notebook = "^7.1.3"
+gym = {extras = ["box2d"], version = "^0.26.2"}
+seaborn = "^0.13.2"
+matplotlib = "^3.8.4"
+tqdm = "^4.66.2"
+gymnasium = {extras = ["mujoco"], version = "^0.29.1"}
 
 
 [build-system]
